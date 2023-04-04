@@ -88,3 +88,6 @@ export VERSION=3.11.1 && \
     make -C builddir && \
     sudo make -C builddir install
 ```
+
+## 参考文献
+- [Quick Start（SingularityCE User Guide）](https://docs.sylabs.io/guides/3.11/user-guide/quick_start.html)
