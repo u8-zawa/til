@@ -55,7 +55,7 @@ SingularityCE は Go で書かれており、お使いのディストリビュ�
 [Go のダウンロードページ](https://go.dev/dl/)から選択し、適したパッケージアーカイブをダウンロードして`/usr/local`に展開します。以下のコマンドを使用することができます。（値は適宜、書き換えてください）
 
 ```
-export VERSION=1.20.2 OS=linux ARCH=amd64 && \
+export VERSION=1.20.3 OS=linux ARCH=amd64 && \
   wget https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz && \
   sudo tar -C /usr/local -xzvf go$VERSION.$OS-$ARCH.tar.gz && \
   rm go$VERSION.$OS-$ARCH.tar.gz
@@ -73,7 +73,7 @@ echo 'export PATH=/usr/local/go/bin:$PATH' >> ~/.bashrc && \
 SingularityCE は、いずれかのリリースからダウンロードできます。全リストを見るには、GitHub のリリースページをご覧ください。インストールするリリースが決まったら、以下のコマンドを実行してインストールを進めてください。（バージョンの値は適宜、書き換えてください）
 
 ```
-export VERSION=3.11.1 && \
+export VERSION=3.11.2 && \
     wget https://github.com/sylabs/singularity/releases/download/v${VERSION}/singularity-ce-${VERSION}.tar.gz && \
     tar -xzf singularity-ce-${VERSION}.tar.gz && \
     cd singularity-ce-${VERSION}
